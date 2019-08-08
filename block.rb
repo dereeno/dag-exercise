@@ -9,6 +9,7 @@ class Block
 
 	def initialize(parents: [])
 		@parents = parents
+		# locking with a class variable to make sure we don't create multiple blocks with the same ID.
 		@@lock.synchronize { @id = next_block_id }
 	end
 

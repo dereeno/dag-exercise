@@ -4,7 +4,7 @@ class Network
 
 	attr_reader :miners, :block_count, :creation_rate, :propagation_delay
 
-	def initialize(miner_count, block_count, creation_rate, propagation_delay)
+	def initialize(miner_count:, block_count:, creation_rate:, propagation_delay:)
 		@block_count = block_count
 
 		@miners = []

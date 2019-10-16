@@ -1,4 +1,4 @@
-# DAGLabs Exercise
+# DAG Exercise
 
 This repository consists of 5 components.
 
